@@ -28,14 +28,14 @@
                     </div>
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <a class="navbar-item is-active">
+                            <a class="navbar-item" href="aboutMe">
                     About Me
                   </a>
-                            <a class="navbar-item">
-                    Contact Me 
+                            <a class="navbar-item" href="#hobbies">
+                    Hobbies 
                   </a>
-                            <a class="navbar-item">
-                    Hobbies
+                            <a class="navbar-item" href="#contactMe">
+                    Contact Me
                   </a>
                         </div>
                     </div>
@@ -58,7 +58,47 @@
 
         </div>
     </div>
-    <script src="port.js"></script>
+    <!-- Hobbies -->
+    <div id="container">
+        <div class="container">
+            <div class="title" id="hobbies">Hobbies</div>
+            <br>
+            <div class='carousel-item has-background'>
+                <div class="title">Bouldering</div>
+                <img class="climb" src="climb.jpg" alt="" width="640" height="310" />
+            </div>
+            <div class='carousel-item has-background'>
+                <div class="title">Cars</div>
+                <img class="is-background" src="rx7.jpg" alt="" width="640" height="310" />
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div style="text-align:center">
+            <div class="title" id="contactMe">Contact Me</div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="me.png" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Insert text" style="height:170px"></textarea>
+                    <button class="button is-link is-rounded">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="port.js">
+    </script>
 </body>
 
 </html>
