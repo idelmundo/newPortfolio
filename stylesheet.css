@@ -1,0 +1,12 @@
+img {
+    padding: 2em;
+    height: 30em;
+}
+
+.column {
+    display: blocks;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 1.75rem;
+}
