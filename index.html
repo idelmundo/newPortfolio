@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_2.0</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/1dfbc8a440.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
@@ -59,45 +60,99 @@
         </div>
     </div>
     <!-- Hobbies -->
-    <div id="container">
-        <div class="container">
-            <div class="title" id="hobbies">Hobbies</div>
-            <br>
-            <div class='carousel-item has-background'>
-                <div class="title">Bouldering</div>
-                <img class="climb" src="climb.jpg" alt="" width="640" height="310" />
-            </div>
-            <div class='carousel-item has-background'>
-                <div class="title">Cars</div>
-                <img class="is-background" src="rx7.jpg" alt="" width="640" height="310" />
+    <div class="tile is-ancestor ">
+        <div class="tile is-4 is-vertical is-parent">
+            <div class="tile is-child box notification is-primary">
 
+                <p class="title ">Skills</p>
+                <p class="subtitle ">"Focus on goals, not obstacles"</p>
+                <table>
+                    <tr>
+                        <td>HTML</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star-half-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td>jQuery</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star-half-alt"></i></td>
+
+                    </tr>
+                    <tr>
+                        <td>jQuery</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star-half-alt"></i></td>
+
+                    </tr>
+                    <tr>
+                        <td>WebAPIs/serverside</td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star"></i></td>
+                        <td><i class="fas fa-star-half-alt"></i></td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+            <div class="tile is-child box notification is-primary" ">
+                <p class="title ">Two</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            </div>
+        </div>
+        <div class="tile is-parent ">
+            <div class="tile is-child box notification is-primary ">
+                <p class="title ">Hobbies</p>
+                <div class='carousel-item has-background'>
+                    <div class="title ">Bouldering</div>
+                    <img class="climb " src="climb.jpg " alt=" " width="640 " height="310 " />
+                </div>
+                <div class='carousel-item has-background'>
+                    <div class="title ">Cars</div>
+                    <img class="is-background " src="rx7.jpg " alt=" " width="640 " height="310 " />
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="container2">
-        <div style="text-align:center">
-            <div class="title" id="contactMe">Contact Me</div>
+    <!-- contact me -->
+    <div class="container2 ">
+        <div style="text-align:center ">
+            <div class="title " id="contactMe ">Contact Me</div>
         </div>
-        <div class="row">
-            <div class="column">
-                <img src="me.png" style="width:100%">
+        <div class="row ">
+            <div class="column ">
+                <img src="me.png " style="width:100% ">
             </div>
-            <div class="column">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Insert text" style="height:170px"></textarea>
-                    <button class="button is-link is-rounded">Submit</button>
+            <div class="column ">
+                <form action="/action_page.php ">
+                    <label for="fname ">First Name</label>
+                    <input type="text " id="fname " name="firstname " placeholder="Your name.. ">
+                    <label for="lname ">Last Name</label>
+                    <input type="text " id="lname " name="lastname " placeholder="Your last name.. ">
+                    <label for="subject ">Subject</label>
+                    <textarea id="subject " name="subject " placeholder="Insert text " style="height:170px "></textarea>
+                    <button class="button is-link is-rounded ">Submit</button>
 
                 </form>
             </div>
         </div>
     </div>
-    <script src="port.js">
+    <script src="port.js ">
     </script>
 </body>
 

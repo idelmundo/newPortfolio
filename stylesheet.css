@@ -12,11 +12,20 @@ img {
 }
 
 
+/* skills */
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+
 /* hobbies */
 
 #container {
     background-color: rgb(112, 182, 190);
     margin-top: 8rem;
+    text-align: center;
 }
 
 
